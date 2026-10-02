@@ -1,0 +1,21 @@
+# Java
+*.class
+*.jar
+out/
+build/
+target/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
