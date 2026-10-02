@@ -1,14 +1,13 @@
 <div align="center">
 
-# ☕ Java OOP Learning Hub
+# ☕ Java OOP ☕
 
 <p>
-  <strong>A structured, beginner-friendly Java repository for learning OOP from zero to projects.</strong>
+  <strong>Learning OOP from zero to projects.</strong>
 </p>
 
 <p>
   <img src="https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge&logo=openjdk" alt="Java 17+">
-  <img src="https://img.shields.io/badge/Level-Beginner%20→%20Intermediate-blue?style=for-the-badge" alt="Level">
   <img src="https://img.shields.io/badge/Focus-OOP-success?style=for-the-badge" alt="OOP">
 </p>
 
@@ -20,9 +19,7 @@
 
 This repository is a **learning path + code library + practice workspace** for Java and Object-Oriented Programming.
 
-> **Learn → Read → Run → Modify → Practice → Build**
-
-You do not need to study every file at once. Follow the modules in order and run the examples yourself.
+> **Learn → Run → Modify → Practice → Build**
 
 ---
 
@@ -41,20 +38,20 @@ You do not need to study every file at once. Follow the modules in order and run
 
 ## 🧠 How to use each topic
 
-Each topic follows the same learning pattern:
+learning pattern:
 
 ```text
-📖 Read the note
+📖 Read note
      ↓
-🧩 Understand the syntax
+🧩 Understand syntax
      ↓
-▶️ Run the example
+▶️ Run example
      ↓
-✏️ Change the code
+✏️ Change code
      ↓
-🧪 Solve the exercises
+🧪 Solve exercises
      ↓
-🚀 Apply it in a project
+🚀 Apply it in project
 ```
 
 ---
@@ -71,13 +68,13 @@ javac -version
 Compile:
 
 ```bash
-javac HelloJava.java
+javac Hello.java
 ```
 
 Run:
 
 ```bash
-java HelloJava
+java Hello
 ```
 
 For a source file inside the repository, first move into its folder or compile using its path.
@@ -86,8 +83,8 @@ For a source file inside the repository, first move into its folder or compile u
 
 ```bash
 cd introduction-to-oop-java/examples
-javac HelloJava.java
-java HelloJava
+javac Hello.java
+java Hello
 ```
 
 ---
@@ -123,19 +120,20 @@ java HelloJava
 ## 🧪 Example: Encapsulation
 
 ```java
-class Student {
+class Student
+{
     private String name;
     private int marks;
-
-    public void setName(String name) {
+    public void setName(String name)
+    {
         this.name = name;
     }
-
-    public void setMarks(int marks) {
+    public void setMarks(int marks)
+    {
         this.marks = marks;
     }
-
-    public void display() {
+    public void display()
+    {
         System.out.println(name + " - " + marks);
     }
 }
@@ -148,15 +146,19 @@ The fields are protected from direct access, while methods provide controlled ac
 ## 🌳 Example: Inheritance
 
 ```java
-class Animal {
-    void sound() {
+class Animal
+{
+    void sound()
+    {
         System.out.println("Animal makes a sound");
     }
 }
 
-class Dog extends Animal {
+class Dog extends Animal
+{
     @Override
-    void sound() {
+    void sound()
+    {
         System.out.println("Dog barks");
     }
 }
@@ -197,40 +199,8 @@ java-oop/
 ├── io-generics-multithreading/
 ├── packages-and-collections/
 └── projects/
-    ├── Athlete-Performance-Analytics/
-    └── banking-system/
+    └── Athlete-Performance-Analytics/
 ```
-
----
-
-## 🎯 Study Checklist
-
-- [ ] Java syntax
-- [ ] Data types and variables
-- [ ] Arrays
-- [ ] Operators
-- [ ] Control statements
-- [ ] Classes and objects
-- [ ] Constructors
-- [ ] Methods
-- [ ] `static`
-- [ ] Access modifiers
-- [ ] Inheritance
-- [ ] `super`
-- [ ] `final`
-- [ ] Method overloading
-- [ ] Method overriding
-- [ ] Dynamic method dispatch
-- [ ] Abstract classes
-- [ ] Interfaces
-- [ ] Exception handling
-- [ ] Strings
-- [ ] File I/O
-- [ ] Generics
-- [ ] Multithreading
-- [ ] Packages
-- [ ] Collections
-- [ ] OOP projects
 
 ---
 
@@ -244,51 +214,6 @@ Main OOP concepts:
 
 `Encapsulation` · `Inheritance` · `Abstraction` · `Polymorphism` · `Interfaces` · `Collections` · `Exception Handling`
 
-### 🏦 Banking System
-
-A beginner-to-intermediate OOP project demonstrating:
-
-`Classes` · `Encapsulation` · `Inheritance` · `Polymorphism` · `Exceptions` · `Collections`
-
----
-
-## 🤝 Contribution workflow
-
-```bash
-git clone <your-repository-url>
-cd java-oop
-
-git checkout -b feature/my-topic
-# edit files
-
-git add .
-git commit -m "Add example for constructors"
-git push -u origin feature/my-topic
-```
-
-Then create a Pull Request on GitHub.
-
----
-
-## 📌 Learning rule
-
-> **Don't just copy the code. Change one thing and run it again.**
-
-For example, after running:
-
-```java
-System.out.println("Hello Java");
-```
-
-change it to:
-
-```java
-System.out.println("Hello OOP");
-```
-
-Then add a variable, a method, a class, and finally an object.
-
----
 
 <div align="center">
 
